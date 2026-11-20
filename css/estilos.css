@@ -1,0 +1,233 @@
+
+/* ESTILOS GENERALES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8f1f8;
+    color: #333333;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #527d9c;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d5eaf5;
+}
+
+/* INICIO */
+#inicio {
+    background-color: #d2e5f1;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#inicio h1 {
+    color: #365e7a;
+    font-size: 32px;
+}
+
+#eslogan {
+    font-size: 18px;
+    color: #526b7b;
+    margin-bottom: 20px;
+}
+
+#inicio a {
+    display: inline-block;
+    background-color: #527d9c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#inicio a:hover {
+    background-color: #365e7a;
+}
+
+#inicio img {
+    display: block;
+    width: 220px;
+    height: 145px;
+    object-fit: cover;
+    margin: 20px auto 0;
+    border-radius: 8px;
+}
+
+/* TÍTULOS DE SECCIONES */
+section h2 {
+    color: #365e7a;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+/* SERVICIOS */
+#servicios {
+    text-align: center;
+    padding: 25px 15px;
+}
+
+#servicios article {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    width: 230px;
+    min-height: 265px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#servicios img {
+    width: 140px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* PLANES */
+#planes {
+    background-color: #d2e5f1;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+#planes article {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    width: 240px;
+    min-height: 230px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#planes .precio {
+    color: #527d9c;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* PASEADORES */
+#paseadores {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+#paseadores article {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    width: 230px;
+    min-height: 260px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#paseadores img {
+    width: 140px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* TEXTOS */
+h3 {
+    color: #365e7a;
+    font-size: 18px;
+}
+
+article p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* CONTACTO */
+#contacto {
+    background-color: #d2e5f1;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#contacto p {
+    font-size: 16px;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #527d9c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 650px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav li {
+        margin: 5px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    #servicios article,
+    #planes article,
+    #paseadores article {
+        width: 85%;
+        max-width: 280px;
+    }
+
+}

@@ -1,15 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huella Urbana</title>
+
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/formulario.css">
 </head>
+
 <body>
+
+    <!-- ENCABEZADO -->
     <header>
-        <img src="img/logo.png" alt="Logo de Huella Urbana" width="200" height="200">
+        <img src="img/logo.png" alt="Logo de Huella Urbana">
+
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -18,71 +24,151 @@
                 <li><a href="#paseadores">Paseadores</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </nav>   
+        </nav>
     </header>
-   <main>
-    <section id="inicio">
-        <h1 class="parrafo">Huella Urbana</h1>
-        <p id="eslogan">Paseos seguros y felices para tu mascota, mientras tu cumples con tu dia.</p>
-        <a href="#contacto">Agenda un paseo</a>
-        <img src="img/principal.jpg" alt="Paseo de mascotas" width="200" height="200" >
-    </section>
-    
-    <section id="servicios">
-        <article>
-            <img src="img/paseo-individual.jpg" alt="Paseo Individual" width="200" height="200">
-            <h3>Paseo Individual</h3>
-            <p class="parrafo">Atencion exclusiva para tu mascota durante 30 o 60 minutos.</p>
-        </article>
-        <article>
-            <img src="img/paseo-grupal.jpg" alt="Paseo Grupal" width="200" height="200" >
-            <h3>Paseo Grupal</h3>
-            <p class="parrafo">Tu mascota socializa con otros perros en grupo de maximo 5.</p>
-        </article>
-        <article>
-            <img src="img/guarderia.jpg" alt="Guarderia" width="200" height="200">
-            <h3>Guarderia</h3>
-            <p class="parrafo">Juego, descanso y cuidao mientras estas en el trabajo.</p>
-        </article>
-    </section>
-    <section id="planes">
-        <article>
-            <h3>Plan Semanal</h3>
-            <p class="parrafo">$65.000 por 5 paseos.</p>
-            <ul>
-                <li>Lunes a viernes</li>
-                <li>Mismo paseador</li>
-                <li>Reporte con foto</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Plan Mensual</h3>
-            <p class="parrafo">$220.000 por 20 paseos</p>
-            <ul>
-                <li>Lunes a Sabado</li>
-                <li>Mismo paseador</li>
-                <li>Seguimiento del recorrido con GPS</li>
-            </ul>
-        </article>
-    </section>
-    <section id="paseadores">
-        <article>
-            <img src="img/paseador-1.jpg" alt="Foto Juan Gomez" width="200" height="200">
-            <h3>Juan Gómez</h3>
-            <p class="parrafo">Paseador desde 2021. Experta en perros grandes</p>
-        </article>
-        <article>
-            <img src="img/paseador-2.jpg" alt="Foto Andrea Rojas" width="200" height="200">
-            <h3>Andrea Rojas</h3>
-            <p class="parrafo">Especialista en cachorros y perros con mucha energia.</p>
-        </article>
-        <article>
-            <img src="img/paseador-3.jpg" alt="Foto Camilo Sanchez" width="200" height="200">
-            <h3>Camilo Sanchez</h3>
-            <p class="parrafo">Estudiante de veterinaria. Ideal para mascotas grandes.</p>
-        </article>
-    </section>
-   </main>
-    
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio">
+            <h1>Huella Urbana</h1>
+
+            <p id="eslogan">
+                Paseos seguros y felices para tu mascota,
+                mientras tú cumples con tu día.
+            </p>
+
+            <a href="#contacto">Agenda un paseo</a>
+
+            <img src="img/principal.jpg" alt="Perro disfrutando de un paseo">
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
+
+            <article>
+                <img src="img/paseo-individual.jpg" alt="Paseo individual de un perro">
+
+                <h3>Paseo Individual</h3>
+
+                <p>
+                    Atención exclusiva para tu mascota durante
+                    30 o 60 minutos.
+                </p>
+            </article>
+
+            <article>
+                <img src="img/paseo-grupal.jpg" alt="Grupo de perros paseando">
+
+                <h3>Paseo Grupal</h3>
+
+                <p>
+                    Tu mascota socializa con otros perros
+                    en grupos de máximo 5.
+                </p>
+            </article>
+
+            <article>
+                <img src="img/guarderia.jpg" alt="Perro en guardería">
+
+                <h3>Guardería</h3>
+
+                <p>
+                    Juego, descanso y cuidado mientras
+                    estás en el trabajo.
+                </p>
+            </article>
+        </section>
+
+        <!-- PLANES -->
+        <section id="planes">
+            <h2>Nuestros planes</h2>
+
+            <article>
+                <h3>Plan Semanal</h3>
+
+                <p class="precio">$65.000</p>
+                <p>Por 5 paseos</p>
+
+                <ul>
+                    <li>Lunes a viernes</li>
+                    <li>Mismo paseador</li>
+                    <li>Reporte con foto</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Plan Mensual</h3>
+
+                <p class="precio">$220.000</p>
+                <p>Por 20 paseos</p>
+
+                <ul>
+                    <li>Lunes a sábado</li>
+                    <li>Mismo paseador</li>
+                    <li>Seguimiento del recorrido con GPS</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- PASEADORES -->
+        <section id="paseadores">
+            <h2>Conoce nuestros paseadores</h2>
+
+            <article>
+                <img src="img/paseador-1.jpg" alt="Foto de Juan Gómez">
+
+                <h3>Juan Gómez</h3>
+
+                <p>
+                    Paseador desde 2021.
+                    Experiencia con perros grandes.
+                </p>
+            </article>
+
+            <article>
+                <img src="img/paseador-2.jpg" alt="Foto de Andrea Rojas">
+
+                <h3>Andrea Rojas</h3>
+
+                <p>
+                    Especialista en cachorros y perros
+                    con mucha energía.
+                </p>
+            </article>
+
+            <article>
+                <img src="img/paseador-3.jpg" alt="Foto de Camilo Sánchez">
+
+                <h3>Camilo Sánchez</h3>
+
+                <p>
+                    Estudiante de veterinaria.
+                    Ideal para mascotas grandes.
+                </p>
+            </article>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>¡Estamos para ayudarte!</h2>
+
+            <p>
+                En Huella Urbana queremos que tu mascota
+                disfrute de paseos seguros y divertidos.
+            </p>
+
+            <p>Contáctanos y agenda su próximo paseo.</p>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 Huella Urbana - Cuidado y bienestar para tu mascota.</p>
+    </footer>
+
 </body>
 </html>
